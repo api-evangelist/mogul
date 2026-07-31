@@ -1,7 +1,30 @@
 aid: mogul
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mogul.png
 name: Mogul
-description: Mogul is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mogul is a modern executive advisory, training, and executive search firm
+  serving 600+ leading companies, with particular focus on leadership
+  development and AI transformation across retail, consumer goods, healthcare,
+  media, and nonprofit sectors. Its services span executive advisory (fractional
+  AI and HR leadership, AI adoption and change management, AI agent buildout),
+  executive training (signature programs from "AI Readiness for Enterprise"
+  through "Organizational Leadership," delivered on-demand or live), and
+  executive search (C-suite, board, and professional placements with succession
+  planning). Mogul reports having educated 1MM+ leaders and counts Amazon,
+  Google, Disney, Microsoft, and Nike among its clients. It was surfaced as a
+  500 Global portfolio company. Mogul publishes no public developer program,
+  API, or documentation; it operates as a B2B services and training business.
 url: https://raw.githubusercontent.com/api-evangelist/mogul/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Executive Search
+- Executive Training
+- Leadership Development
+- Advisory
+- AI Transformation
+- Human Resources
+- Consulting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mogul-domain-security.yml
 - type: Website
   url: https://onmogul.com
+- type: Login
+  url: https://learn.onmogul.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
