@@ -1,0 +1,27 @@
+# Front Door AI Index — mogul — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mogul
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: onmogul.com
+  final_host: onmogul.com
+  ownership: own
+  owner: mogul
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 85
+  host_score: 85
+  density: 22.65
+  words: 3753
+  tiers:
+    agentic: 1
+    core: 84
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 84
+    intelligence: 1
+    prompts: 1
